@@ -1,0 +1,16 @@
+<div class="row task no-gutters mb-2">
+  <div class="col-2 block-date">
+    {{task.date | date: 'dd MM yyyy'}}
+  </div>
+  <div class="col-8 block-description"
+  [ngClass]="{'col-8': !task.completed, 'col-10 del block-description-completed':task.completed}"
+  [title]="task.description">
+    {{task.description}}
+  </div>
+
+  <div *ngIf="!task.completed" class="col-2 block-actions">
+    <i class="icon-action fa fa-check text-success" (click)="taskCheckedEvent()"></i>
+    <i class="icon-action fa fa-remove text-danger" (click)="removeEvent()"></i>
+  </div>
+
+</div>

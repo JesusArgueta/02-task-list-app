@@ -1,0 +1,49 @@
+.task > div{
+  padding: 10px;
+}
+
+.block-date{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  text-align: center;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.block-description{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.block-description-completed{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.del{
+  text-decoration: line-through;
+}
+
+.block-actions{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  text-align: right;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.icon-action{
+  font-size: 32px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
